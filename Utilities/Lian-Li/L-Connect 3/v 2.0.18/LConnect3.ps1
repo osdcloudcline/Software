@@ -16,6 +16,6 @@ Expand-Archive -Path "$destination\L-Connect_3_V2.0.18_X64_2024_0821.ZIP" -Desti
 Remove-Item -Path $ZIPFile -Force
 
 $EXEFile = "C:\download\LConnect\20240821-L-Connect 3-x64-v2.0.18-d0d1dfcd.exe"
-Start-Process -Path $EXEFile
+Start-Process -FilePath $EXEFile
 
 Stop-Transcript
