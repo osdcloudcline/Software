@@ -24,14 +24,7 @@ Save-WebFile -SourceUrl $SignalRGBURL8 -DestinationDirectory $SignalRGBDestinati
 Save-WebFile -SourceUrl $SignalRGBURL9 -DestinationDirectory $SignalRGBDestination
 
 Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.001"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.002"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.003"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.004"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.005"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.006"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.007"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.008"  $SignalRGBDestination
-Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.009"  $SignalRGBDestination
+
 
 
 
