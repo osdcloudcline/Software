@@ -10,7 +10,7 @@ $SignalRGBURL9 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/
 
 $SignalRGBDestination = "C:\downloads"
 
-$OSD = (Get-Module -ListAvailable -Name OSD | $null)
+$OSD = (Get-Module -ListAvailable -Name OSD)
 
 If($OSD -eq $false){
 Install-Module -Name OSD -Force -AllowClobber -SkipPublisherCheck
