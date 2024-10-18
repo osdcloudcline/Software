@@ -11,8 +11,7 @@ $SignalRGBURL9 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/
 $SignalRGBDestination = "C:\downloads\SignalRGB"
 $ZIPFile = "$SignalRGBDestination\Install_SignalRgb.zip"
 
-Install-Module -Name OSD -Force -AllowClobber -SkipPublisherCheck
-Import-Module -Name OSD -Force
+
 
 Save-WebFile -SourceUrl $SignalRGBURL1 -DestinationDirectory $SignalRGBDestination
 Save-WebFile -SourceUrl $SignalRGBURL2 -DestinationDirectory $SignalRGBDestination
