@@ -24,6 +24,15 @@ Save-WebFile -SourceUrl $SignalRGBURL7 -DestinationDirectory $SignalRGBDestinati
 Save-WebFile -SourceUrl $SignalRGBURL8 -DestinationDirectory $SignalRGBDestination
 Save-WebFile -SourceUrl $SignalRGBURL9 -DestinationDirectory $SignalRGBDestination
 
-Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip" -DestinationPath $SignalRGBDestination
-Remove-Item -Path $ZIPFile -Force
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.001" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.002" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.003" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.004" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.005" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.006" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.007" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.008" -DestinationPath $SignalRGBDestination
+Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip.009" -DestinationPath $SignalRGBDestination
+
+
 
