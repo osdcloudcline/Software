@@ -36,4 +36,4 @@ Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.008" -Force
 Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.009" -Force
 
 $SignalRGB = "$SignalRGBDestination\Install_SignalRgb.exe" 
-Start-Process -Path $SignalRGB
+Start-Process -FilePath $SignalRGB
