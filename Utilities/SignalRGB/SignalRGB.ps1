@@ -25,6 +25,15 @@ Save-WebFile -SourceUrl $SignalRGBURL9 -DestinationDirectory $SignalRGBDestinati
 
 Expand-7Zip  "$SignalRGBDestination\Install_SignalRgb.zip.001"  $SignalRGBDestination
 
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.001" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.002" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.003" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.004" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.005" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.006" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.007" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.008" -Force
+Remove-Item -Path "$SignalRGBDestination\Install_SignalRgb.zip.009" -Force
 
-
-
+$SignalRGB = "$SignalRGBDestination\Install_SignalRgb.exe" 
+Start-Process -Path $SignalRGB
