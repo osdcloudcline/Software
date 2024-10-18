@@ -8,7 +8,7 @@ $SignalRGBURL7 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/
 $SignalRGBURL8 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/Utilities/SignalRGB/ver.%202.4.17/Install_SignalRgb.zip.008"
 $SignalRGBURL9 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/Utilities/SignalRGB/ver.%202.4.17/Install_SignalRgb.zip.009"
 
-$SignalRGBDestination = "C:\downloads"
+$SignalRGBDestination = "C:\downloads\SignalRGB"
 $ZIPFile = "$SignalRGBDestination\Install_SignalRgb.zip"
 
 Install-Module -Name OSD -Force -AllowClobber -SkipPublisherCheck
@@ -25,4 +25,5 @@ Save-WebFile -SourceUrl $SignalRGBURL8 -DestinationDirectory $SignalRGBDestinati
 Save-WebFile -SourceUrl $SignalRGBURL9 -DestinationDirectory $SignalRGBDestination
 
 Expand-Archive -Path "$SignalRGBDestination\Install_SignalRgb.zip" -DestinationPath $SignalRGBDestination
+Remove-Item -Path $ZIPFile -Force
 
