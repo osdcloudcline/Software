@@ -48,6 +48,8 @@ $destination4 = "C:\downloads\Macrium Reflect X\Common Files\Extract"
 $destination5 = "C:\downloads\Macrium Reflect X\Reflect Files\Extract"
 $destination6 = "C:\Program Files\Macrium\Common"
 $destination7 = "C:\Program Files\Macrium\Reflect"
+$destination8 = "C:\downloads\Macrium Reflect X\Common Files\Extract\ZIP"
+$destination9 = "C:\downloads\Macrium Reflect X\Reflect Files\Extract\ZIP"
 
 Import-Module -Name OSD -Force
 
@@ -115,8 +117,8 @@ Start-Process -FilePath $ReflectSetup
 
 pause
 
-Copy-Item -Path "$destination4\*" -Destination $destination6 -Recurse -Force
-Copy-Item -Path "$destination5\*" -Destination $destination7 -Recurse -Force
+Copy-Item -Path "$destination8\*" -Destination $destination6 -Recurse -Force
+Copy-Item -Path "$destination9\*" -Destination $destination7 -Recurse -Force
 
 pause
 
