@@ -81,33 +81,33 @@ Save-WebFile -SourceUrl $ReflectURL7 -DestinationDirectory $destination3
 Save-WebFile -SourceUrl $ReflectURL8 -DestinationDirectory $destination3
 Save-WebFile -SourceUrl $ReflectURL9 -DestinationDirectory $destination3
 
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.001" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.002" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.003" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.004" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.005" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.006" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.007" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.008" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.009" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.010" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.011" -TargetPath $destination1
-Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.012" -TargetPath $destination1
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.001" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.002" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.003" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.004" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.005" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.006" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.007" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.008" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.009" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.010" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.011" -TargetPath $destination1 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.012" -TargetPath $destination1 -ErrorVariable SilentlyContinue
 
-Expand-7Zip -ArchiveFileName "$destination2\Common.zip.001" -TargetPath $destination4
-Expand-7Zip -ArchiveFileName "$destination2\Common.zip.002" -TargetPath $destination4
-Expand-7Zip -ArchiveFileName "$destination4\Common.zip" -TargetPath $destination8
+Expand-7Zip -ArchiveFileName "$destination2\Common.zip.001" -TargetPath $destination4 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination2\Common.zip.002" -TargetPath $destination4 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination4\Common.zip" -TargetPath $destination8 -ErrorVariable SilentlyContinue
 
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.001" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.002" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.003" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.004" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.005" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.006" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.007" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.008" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.009" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination5\Reflect.zip" -TargetPath $destination9
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.001" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.002" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.003" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.004" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.005" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.006" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.007" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.008" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.009" -TargetPath $destination5 -ErrorVariable SilentlyContinue
+Expand-7Zip -ArchiveFileName "$destination5\Reflect.zip" -TargetPath $destination9 -ErrorVariable SilentlyContinue
 
 $ReflectSetup = "$destination1\ReflectSetup_x64.exe"
 
@@ -119,6 +119,11 @@ pause
 
 Copy-Item -Path "$destination8\*" -Destination $destination6 -Recurse -Force
 Copy-Item -Path "$destination9\*" -Destination $destination7 -Recurse -Force
+
+pause
+
+cd "C:\scripts"
+Invoke-Expression -Command .\Macrium.ps1
 
 pause
 
