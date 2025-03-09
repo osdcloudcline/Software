@@ -117,3 +117,7 @@ Copy-Item -Path "$destination4\*" -Destination $destination6 -Recurse -Force
 Copy-Item -Path "$destination5\*" -Destination $destination7 -Recurse -Force
 
 Get-NetAdapter | Enable-NetAdapter -Confirm:$false
+
+Write-Verbose "Completed: Macrium Reflect X..." -Verbose
+
+Stop-Transcript
