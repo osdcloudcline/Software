@@ -96,7 +96,7 @@ Expand-7Zip -ArchiveFileName "$destination1\ReflectSetup_x64.zip.012" -TargetPat
 
 Expand-7Zip -ArchiveFileName "$destination2\Common.zip.001" -TargetPath $destination4
 Expand-7Zip -ArchiveFileName "$destination2\Common.zip.002" -TargetPath $destination4
-Expand-7Zip -ArchiveFileName "$destination2\Common.zip" -TargetPath $destination4
+Expand-7Zip -ArchiveFileName "$destination4\Common.zip" -TargetPath $destination8
 
 Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.001" -TargetPath $destination5
 Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.002" -TargetPath $destination5
@@ -107,7 +107,7 @@ Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.006" -TargetPath $destin
 Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.007" -TargetPath $destination5
 Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.008" -TargetPath $destination5
 Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip.009" -TargetPath $destination5
-Expand-7Zip -ArchiveFileName "$destination3\Reflect.zip" -TargetPath $destination5
+Expand-7Zip -ArchiveFileName "$destination5\Reflect.zip" -TargetPath $destination9
 
 $ReflectSetup = "$destination1\ReflectSetup_x64.exe"
 
