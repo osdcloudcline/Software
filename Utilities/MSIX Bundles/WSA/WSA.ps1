@@ -1,3 +1,9 @@
+Install-Module -Name OSD -Force
+Import-Module -Name OSD -Force
+
+Install-Module -Name 7Zip4Powershell -Force
+Import-Module -Name 7Zip4Powershell -Force
+
 $WSADLURL1 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/Utilities/MSIX%20Bundles/WSA/MicrosoftCorporationII.WindowsSubsystemForAndroid_2305.40000.4.0_neutral_~_8wekyb3d8bbwe.zip.001"
 $WSADLURL2 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/Utilities/MSIX%20Bundles/WSA/MicrosoftCorporationII.WindowsSubsystemForAndroid_2305.40000.4.0_neutral_~_8wekyb3d8bbwe.zip.002"
 $WSADLURL3 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/Utilities/MSIX%20Bundles/WSA/MicrosoftCorporationII.WindowsSubsystemForAndroid_2305.40000.4.0_neutral_~_8wekyb3d8bbwe.zip.003"
