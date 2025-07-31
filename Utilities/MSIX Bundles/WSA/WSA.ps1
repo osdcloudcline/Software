@@ -59,6 +59,7 @@ $WSADLURL58 = "https://github.com/osdcloudcline/Software/raw/refs/heads/main/Uti
 
 $destination = "C:\downloads\OS\MSIX\WSA"
 $WSAfile = "C:\downloads\OS\MSIX\WSA\MicrosoftCorporationII.WindowsSubsystemForAndroid_2305.40000.4.0_neutral_~_8wekyb3d8bbwe.Msixbundle"
+New-Item -Path $destination -ItemType Directory -Force
 
 Save-WebFile --SourceUrl $WSADLURL1 -DestinationDirectory $destination
 Save-WebFile --SourceUrl $WSADLURL2 -DestinationDirectory $destination
